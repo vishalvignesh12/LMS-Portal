@@ -1,0 +1,22 @@
+npm install \
+  @tanstack/react-query zustand axios \
+  react-hook-form zod @hookform/resolvers \
+  recharts d3 react-calendar-heatmap \
+  @tiptap/react @tiptap/starter-kit \
+  @tiptap/extension-placeholder \
+  @monaco-editor/react video.js react-pdf \
+  react-dropzone lucide-react \
+  date-fns react-hot-toast next-themes \
+  framer-motion papaparse geist \
+  @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities \
+  face-api.js webgazer @tensorflow/tfjs \
+  recordrtc screenfull \
+  @fingerprintjs/fingerprintjs \
+  clsx tailwind-merge \
+  && npm install -D \
+  vitest @playwright/test \
+  eslint prettier eslint-config-next \
+  @types/d3 @types/video.js @types/recordrtc \
+  && npx shadcn-ui@latest init
+
+  "" BE CAREFUL WHILE INSTALLING AXIOS< PLEASE CHECK IF THE HACK IS FIXED OR NOT ""
