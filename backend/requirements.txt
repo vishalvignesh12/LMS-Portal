@@ -2,82 +2,82 @@
 #  LMS Portal — Python Requirements
 #  pip install -r requirements.txt
 # ─────────────────────────────────────────
-
+ 
 # ── Core Framework ────────────────────────
-fastapi==0.115.5
-uvicorn[standard]==0.32.1
-pydantic==2.10.1
-
+fastapi
+uvicorn[standard]
+pydantic
+ 
 # ── Database + ORM ────────────────────────
-sqlalchemy==2.0.36
-alembic==1.14.0
-asyncpg==0.30.0
-psycopg2-binary==2.9.10
-
+sqlalchemy
+alembic
+asyncpg
+psycopg2-binary
+ 
 # ── Auth + Security ───────────────────────
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-bcrypt==4.2.1
-fastapi-limiter==0.1.6
-python-multipart==0.0.18
-
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+fastapi-limiter
+python-multipart
+ 
 # ── Cache + Job Queue ─────────────────────
-redis==5.2.1
-arq==0.26.1
-apscheduler==3.10.4
-
+redis
+arq
+apscheduler
+ 
 # ── File Storage + Utilities ──────────────
-boto3==1.35.75
-python-magic==0.4.27
-Pillow==11.0.0
-pandas==2.2.3
-httpx==0.28.0
-openpyxl==3.1.5
-
+boto3
+python-magic
+Pillow
+pandas
+httpx
+openpyxl
+ 
 # ── Notifications ─────────────────────────
-resend==2.5.0
-twilio==9.3.7
-pywebpush==2.0.1
-jinja2==3.1.4
-
+resend
+twilio
+pywebpush
+jinja2
+ 
 # ── Observability ─────────────────────────
-structlog==24.4.0
-sentry-sdk[fastapi]==2.19.0
-prometheus-fastapi-instrumentator==7.0.0
-
+structlog
+sentry-sdk[fastapi]
+prometheus-fastapi-instrumentator
+ 
 # ── AI / LLM ──────────────────────────────
-anthropic==0.40.0
-openai==1.57.0
-cohere==5.12.0
-
+anthropic
+openai
+cohere
+ 
 # ── RAG + Document Processing ─────────────
-llama-index==0.12.0
-pymupdf==1.25.0
-pdfplumber==0.11.4
-tiktoken==0.8.0
-
+llama-index
+pymupdf
+pdfplumber
+tiktoken
+ 
 # ── Embeddings + Vector Search ────────────
-faiss-cpu==1.9.0
-sentence-transformers==3.3.1
-numpy==2.1.3
-scipy==1.14.1
-scikit-learn==1.5.2
-
+faiss-cpu
+sentence-transformers
+numpy
+scipy
+scikit-learn
+ 
 # ── Audio + Transcription ─────────────────
-faster-whisper==1.1.0
-ffmpeg-python==0.2.0
-
+faster-whisper
+ffmpeg-python
+ 
 # ── NLP Utilities ─────────────────────────
-spacy==3.8.3
-nltk==3.9.1
-
+spacy
+nltk
+ 
 # ── Proctoring (Server-side) ──────────────
-opencv-python==4.10.0.84
-deepface==0.0.93
-
+opencv-python
+deepface
+ 
 # ── Dev + Testing ─────────────────────────
-pytest==8.3.4
-pytest-asyncio==0.24.0
-ruff==0.8.2
-mypy==1.13.0
-pre-commit==4.0.1
+pytest
+pytest-asyncio
+ruff
+mypy
+pre-commit
